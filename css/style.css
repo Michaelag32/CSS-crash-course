@@ -193,3 +193,18 @@ a:visited{
     top: 400px;
     position: fixed;
 }
+
+.My-list li:first-child{
+background: red;
+}
+
+.My-list li:last-child{
+background: blue;
+    }
+
+    .My-list li:nth-child(5){
+        background: yellow;
+            }
+            .My-list li:nth-child(even){
+                background: gray;
+                    }
